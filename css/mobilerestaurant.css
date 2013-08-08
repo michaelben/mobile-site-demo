@@ -1,0 +1,303 @@
+body { font-size: 12px !important; height: 0 !important; }
+
+.ui-icon { display: none !important; }
+.ui-btn-inner { text-align: center !important; padding-left: 15px !important; }
+
+.makeBooking, .continue, .button {
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	-webkit-appearance: none;
+}
+
+.bookingform, .partysize, .ddl, .ddlform {
+	border-radius: 5px;
+}
+
+#booking_tab .ui-btn, #call_button, #book_button {
+	color: white !important;
+	text-shadow: 0 1px 0 #000000 !important;
+}
+
+#call_button, #book_button {
+	border-radius: 5px;
+}
+
+tr, td {
+	width: 50% !important;
+	vertical-align: baseline !important;
+}
+
+img {
+	width: 100% !important;
+	height: auto !important;
+}
+
+#banner {
+	width: 100%;
+	position: absolute;
+	z-index: 999999;
+	opacity: 0.7;
+}
+
+#menu, #fullsite {
+	margin: 0 -15px !important;
+}
+
+#menu .ui-btn-inner, #fullsite .ui-btn-inner {
+	padding-left: 25px !important;
+}
+
+#map_tab {
+	text-align: center !important;
+}
+
+#map_canvas img {
+	width: auto !important;
+}
+
+.slider {
+    left: 0 !important;
+}
+
+ol {
+    display: none !important;
+}
+
+ul {
+list-style: none outside none;
+}
+
+.flexslider {
+    margin: 0 0 -30px 0 !important;
+	display: none;
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+.pod-booking-widget {
+	min-height: 270px !important;
+}
+
+.pod-booking-widget a {
+	text-decoration: none !important;
+}
+
+#pod_slider_opentimes{
+	background: none;
+	height: 85px;
+	width: 165px;
+	position:relative;
+}
+.pod_slider_opentimes_on{
+	background: #000000;
+	height: 12px;
+	width: 13px;
+    top: 10px;
+}
+.pod_slider_opentimes_off{
+	background: #000000;
+	height: 12px;
+	width: 13px;
+    top: 10px;
+}
+#pod_slider_opentimes_daysofweek{
+	left: 15px;
+	top: 4px;
+    position: absolute;
+}
+#pod_slider_opentimes_daysofweek li{
+	text-align: center;
+	width: 12px;
+	padding-right: 1px;
+}
+
+#pod_slider_opentimes_legend{
+	left: 58px;
+	top: 65px;
+	position: absolute;
+}
+
+#pod_slider_opentimes_legend label{ top:0px;position:absolute;font-size:12px; margin-left: 13px; }
+
+#pod_slider_opentimes_legend li{
+	margin-right: 33px !important;
+	text-align: right;
+	text-indent: 13px;
+	font-size: 10px;
+}
+
+#pod_slider_opentimes_timeDefs{
+	top: 19px;
+	position: absolute;
+	font-size: 12px;
+	left: -40px;
+	line-height: 1.2em;
+}
+#pod_slider_opentimes_timeDefs li{
+	float: none !important;
+}
+
+#pod_slider_opentimes_breakfast{
+	left:55px;
+	top:20px;
+	padding:0;
+	position:absolute;
+}
+#pod_slider_opentimes_lunch{
+	left:55px;
+	top:34px;
+	padding:0;
+	position:absolute;
+}
+#pod_slider_opentimes_dinner{
+	left:55px;
+	top:48px;
+	padding:0;
+	position:absolute;
+}
+#pod_slider_opentimes li{
+	float: left;
+	margin-right: 2px;
+	font-size: 12px;
+}
+#pod_slider_opentimes h2{
+	margin-left: 0px;
+	font-size: 12px;
+	font-weight: bold;
+	position: absolute;
+	width: 10px;
+	margin-top: 16px;
+}
+
+.pod-booking-widget img {
+	width: auto !important;
+}
+
+.ui-grid-solo, .ui-grid-a, .ui-grid-b  {
+	padding-right: 11px
+}
+
+.ui-block-a {
+	
+}
+
+.ui-block-b {
+	padding-left: 5px;
+}
+
+.ui-block-c {
+	padding-left: 16px;
+}
+
+.ddl {
+    height: 40px;
+	padding-right: 30px;
+	-webkit-appearance: none !important;
+	border-radius: 5px;
+	background: url("../common_images/arrow_icon.png") no-repeat 90% #ffffff;
+}
+
+.time {
+	height: 40px;
+	padding-right: 90px;
+	-webkit-appearance: none !important;
+	border-radius: 5px;
+	background: url("../common_images/arrow_icon.png") no-repeat 90% #ffffff;
+}
+
+.ddlform {
+    height: 36px;
+	width: 100%;
+	padding-right: 30px;
+	-webkit-appearance: none !important;
+	border-radius: 5px;
+	background: url("../common_images/arrow_icon.png") no-repeat 90% #ffffff;
+}
+
+.button {
+	height: 30px;
+	width: 70px;
+}
+
+.partysize {
+    height: 30px;
+    width: 30px;
+	padding-right: 30px;
+    text-align: center;
+	-webkit-appearance: none !important;
+	border-radius: 5px;
+	background: url("../common_images/people_icon.png") no-repeat 90% #ffffff;
+}
+
+.bookingform {
+    height: 30px;
+	width: 100%;
+	color: grey;
+	border-radius: 5px;
+}
+
+#bookingTerms a {
+	font-weight: bold;
+	color: inherit !important;
+}
+
+#ProfileMoreInfo, #Reviews {
+	text-align: justify;
+}
+
+.TimeSlots {
+	padding: 0 0 0 0;
+	font-size: 10px;
+	height: 51px;
+	width: 51px;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	-webkit-appearance: none;
+}
+
+.makeBooking {
+	float: right;
+	height: 30px;
+	width: 110px;
+}	
+
+.continue {
+	float:right;
+	height: 30px;
+	width: 90px;
+}
+
+.specialOffer {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#specialsOverlay {
+	position: relative; 
+	top: 14px; left: 46px;
+	color: white; 
+	text-shadow: none; 
+	font-size: 10px;
+	font-weight: bold; 
+	margin-left: -38px;
+}
+
+#footer {
+	text-align: center !important;
+}
+
+#footer img {
+	max-width: 50% !important;
+}
+
+#redirect {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
